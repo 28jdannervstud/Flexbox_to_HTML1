@@ -7,7 +7,9 @@ html{
 body {background-color: magenta;}
 p {color: lightpink}
 p {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-h1 {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+h1 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 h2 {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 h3 {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 p {font-size:23px;}
@@ -57,6 +59,9 @@ td {color: aqua}
 }
 .section {
   margin-bottom: 3rem;
+  border-radius: 5px;
+  border-style: dotted;
+  border-color:blue;
 }
 /* i got help from ben peer reviewing my color choices */ 
 
@@ -105,4 +110,29 @@ td {color: aqua}
 .gleeble:hover {
   transition: 3s ease-in-out;
   transform:translate(3000px)
+}
+nav{
+  position: sticky;
+  top: -10px;
+  padding: 15px;
+  opacity: 1;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  font-size:larger;
+}
+
+.headandtext{
+  border-radius:4px;
+  border-style:dotted;
+  border-color:green
+  
+}
+.job{
+  width:500px;
+  border-radius:6px;
+  border-style:solid ;
+  border-color:black;
 }
